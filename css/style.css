@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: url(../img/bd2.jpeg)no-repeat center top;
+    /* background-color: rgb(63, 62, 62); */
+    background-size: cover;
+    
+}
+h1,h2,h3{
+    font-family: 'Roboto', sans-serif;
+}
+.login-box{
+    background:rgb(255, 254, 254);
+    padding:30px 20px;
+    margin-top: 80px;
+    border-radius: 15px;
+
+}
+ .login-box img{
+    /* display:block;
+    width: 90px; */
+     display: block;
+     /* margin-left: auto;
+     margin-right: auto; */
+     width: 70%;
+     margin:0 auto;
+
+}
+.login-box h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 15px 0 30px;
+
+}
+.forget-text {
+    text-align: right;
+    font-size: 12px;
+    font-weight: 200;
+
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group label{
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+
+}
+.frm-ctrl{
+    width: 100%;
+    height: 36px;
+    color: gray;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px;
+    /* outline: none; */
+}
+/* .frm-ctrl:focus{
+    border: 1px solid skyblue;
+} */
+.btn-login{
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: #065E99;
+    padding: 10px 45px;
+    /* margin-left: 7px; */
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border:none;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    width:100%
+}
+.btn-login:hover{
+    background: #8E2B6C;
+}
+.login-box ul{
+    padding:15px 0 0;
+    
+}
+.login-box ul li{
+    list-style: none;
+    line-height:30px ; 
+    font-weight: 600; 
+    font-size: 14px;
+}
+.login-box ul li a{
+    text-decoration: none;
+    color:rgb(22, 4, 4) ;
+    transition: all 0.3s ease-in-out;
+}
+.login-box ul li a:hover{
+    color: red;
+    padding-left: 3px;
+}
+@media(min-width:320px) and (max-width:576px) {
+    .login-box{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
